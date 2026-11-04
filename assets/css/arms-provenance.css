@@ -71,11 +71,11 @@ body.ap{
 .feat-group li{margin-bottom:.45rem}
 .feat-group li strong{color:var(--cream)}
 .tier-note{font-size:.85rem;color:var(--brass);font-weight:600}
-/* screenshots placeholder */
+/* screenshots */
 .shots{display:grid;grid-template-columns:repeat(4,1fr);gap:1.25rem}
-.shot{aspect-ratio:9/19;border-radius:24px;border:2px dashed var(--brass-m);background:repeating-linear-gradient(135deg,var(--wn) 0 14px,var(--wr) 14px 28px);
-  display:flex;align-items:flex-end;justify-content:center;padding:1rem;text-align:center;color:var(--cream-m);font-size:.9rem}
-.shot span{background:rgba(20,13,9,.85);padding:.4rem .6rem;border-radius:8px}
+.shot{margin:0;text-align:center;color:var(--cream-m);font-size:.9rem}
+.shot img{display:block;width:100%;height:auto;border-radius:22px;border:2px solid var(--brass-m);box-shadow:0 10px 28px rgba(0,0,0,.45)}
+.shot figcaption{margin-top:.6rem}
 /* privacy */
 .vault{background:linear-gradient(135deg,var(--parch),#eadcbf);color:var(--ink);border-radius:var(--radius);padding:clamp(1.6rem,4vw,2.6rem);border:1px solid var(--brass-m)}
 .vault h2,.vault h3{color:var(--ink)}
