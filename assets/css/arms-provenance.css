@@ -139,3 +139,9 @@ body.ap{
 .soon-note.top{margin:0 0 1.1rem}
 .products .soon-card h3{margin-top:.2rem}
 @media (max-width:640px){.product.flagship{flex-direction:column}.product.flagship picture img{width:84px;height:84px}}
+/* PC line + 4-tier pricing */
+.ap-status-pc{margin-top:.35rem;display:flex;align-items:center;gap:.45rem}
+.ap-ico{color:var(--brass);flex:none}
+.tiers{grid-template-columns:repeat(4,1fr)}
+@media (max-width:1100px){.tiers{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:640px){.tiers{grid-template-columns:1fr}}
