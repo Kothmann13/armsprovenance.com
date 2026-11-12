@@ -145,3 +145,6 @@ body.ap{
 .tiers{grid-template-columns:repeat(4,1fr)}
 @media (max-width:1100px){.tiers{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:640px){.tiers{grid-template-columns:1fr}}
+
+/* Meet the Founder */
+.ap .founder-copy p{color:#e4d7bf}
