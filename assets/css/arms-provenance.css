@@ -183,3 +183,4 @@ body.ap{
 
 /* Meet the Founder */
 .ap .founder-copy p{color:#e4d7bf}
+.fine code{word-break:break-all;overflow-wrap:anywhere}
