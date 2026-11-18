@@ -102,6 +102,7 @@ body.ap{
 .ribbon{align-self:flex-start;background:var(--brass);color:var(--ink);font-size:.75rem;font-weight:800;letter-spacing:.03em;text-transform:uppercase;padding:.3rem .5rem;border-radius:999px;margin-bottom:.6rem}
 .tier .ribbon{margin-bottom:0}
 .tier .tier-note{margin:0}
+.tier h3 + .tier-note{margin:.15rem 0 .25rem}
 .fine{font-size:.9rem;color:var(--cream-m);max-width:52rem}
 .store-row{display:flex;flex-wrap:wrap;gap:1rem;align-items:center;margin-top:1.6rem}
 .play-badge{height:58px;width:auto}
